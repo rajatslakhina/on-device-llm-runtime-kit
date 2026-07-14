@@ -127,7 +127,7 @@ No Xcode required — the package is platform-agnostic and the full suite runs o
 
 ## Demo app
 
-Demo app: (added after the companion repo is pushed — see below)
+**[Runtime Lab →](https://github.com/rajatslakhina/on-device-llm-runtime-kit-demo-app)** — a separate repo containing `Demo.xcodeproj`, which consumes this package as a **remote** Swift Package dependency (by this repo's public GitHub URL, branch `main`), exactly the way an external consumer would. It puts the whole pipeline under your thumbs: device-profile knobs feeding live selection decisions with full rejection logs, streaming chat with KV-cache gauges, and buttons that inject memory/thermal pressure to watch the governor respond.
 
 ## Verification status (honest)
 
